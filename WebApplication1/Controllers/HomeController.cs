@@ -101,6 +101,12 @@ namespace WebApplication1.Controllers
             return Ok(result);
         }
 
+        [HttpPost]
+        public IActionResult sumitnayan()
+        {
+            return Ok("Hello World");
+        }
+
     }
 
 }
